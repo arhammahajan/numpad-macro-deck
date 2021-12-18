@@ -13,7 +13,7 @@ from ahk import AHK,Hotkey
 from ahk.window import Window
 ahk=AHK()
 
-#hotekey
+#hotkey
 current=set()
 enter=[{keyboard.Key.shift, keyboard.Key.f15}]
 def on_press(key):
@@ -35,7 +35,3 @@ def on_release(key):
 with keyboard.Listener(on_press=on_press,on_release=on_release) as l:
     l.join()
 l.start()
-
-#https://www.youtube.com/watch?v=XCwXWOe6VcU
-#https://www.youtube.com/watch?v=kgiEF1frHQ8
-#https://github.com/me2d13/luamacros
