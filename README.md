@@ -126,3 +126,7 @@ Do not put the OBS password in a committed script; provide it through the
 This is a small personal automation template rather than a plug-and-play Stream
 Deck replacement. Hardware identifiers and application bindings are deliberately
 local configuration, so review both scripts before using them.
+
+## License
+
+Licensed under the [MIT License](LICENSE).
